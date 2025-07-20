@@ -1,0 +1,72 @@
+name: digitalcaryard
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  simple_text_field:
+    path: lib/packages/simple_text_field_fixed
+  stacked: ^3.4.4
+  stacked_services: ^1.6.0
+
+  flex_color_scheme: ^8.0.0
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  responsive_builder: ^0.7.1
+  iconsax: ^0.0.8
+  email_validator: ^3.0.0
+  flutter_svg: ^2.1.0
+  firebase_core: ^3.13.0
+  firebase_storage: ^12.4.5
+  firebase_messaging: ^15.2.5
+  firebase_auth: ^5.5.3
+  outline_search_bar: ^2.3.0
+  carousel_slider: ^5.0.0
+  flutter_local_notifications: ^19.1.0
+  permission_handler: ^12.0.0+1
+
+dev_dependencies:
+  #  build_web_compilers: ^4.1.4
+  build_runner: ^2.4.15
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.2
+  stacked_generator: ^1.6.1
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Ethnocentric
+      fonts:
+        - asset: assets/fonts/Ethnocentric Rg It.otf
+
+    - family: Saira_Condensed
+      fonts:
+        - asset: assets/fonts/Saira_Condensed-ExtraBold.ttf
+
+    - family: SourceSans3
+      fonts:
+        - asset: assets/fonts/SourceSans3-Medium.ttf
+
+    - family: Saira-BlackItalic
+      fonts:
+        - asset: assets/fonts/Saira-BlackItalic.ttf
+
+    - family: Slugs Racer
+      fonts:
+        - asset: assets/fonts/Slugs Racer.ttf
+
+  assets:
+    - assets/
+
+dependency_overrides:
+  simple_text_field:
+    path: lib/packages/simple_text_field_fixed

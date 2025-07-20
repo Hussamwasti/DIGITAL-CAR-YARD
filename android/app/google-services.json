@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "820535541122",
+    "project_id": "digitalcardyard",
+    "storage_bucket": "digitalcardyard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:820535541122:android:b8feea433798441f2d239b",
+        "android_client_info": {
+          "package_name": "com.example.digital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDztn9P54-6RVP5_XhovOX-OB2oskLb5yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
